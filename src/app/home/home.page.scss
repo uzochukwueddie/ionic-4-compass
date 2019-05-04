@@ -1,1 +1,29 @@
+ion-header {
+    ion-title {
+        margin: 0 auto;
+        text-align: center;
+        --color: black;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
 
+ion-content {
+    img {
+        position: absolute;
+        max-width: 250px;
+        max-height: 250px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 30%;
+    }
+}
+
+ion-footer {
+    geo-coordinates {
+        color: black;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
